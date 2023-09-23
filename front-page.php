@@ -3,12 +3,7 @@
  *  Template Name: Home
  */
 get_header(); ?>
-    <section class="home-intro">
-      <div class="home-intro__img"> <img src="<?php echo get_template_directory_uri(); ?>/assets/i/home/home-intro/home-intro-bg.jpg" alt="Intro"></div>
-      <div class="container">
-        <h1 class="home-intro__title"><strong>Studio Michele Bazzo Associati</strong> Professionalità – Fiducia – Confronto</h1>
-      </div>
-    </section>
+<?php echo get_template_part("template-parts/home/home-intro"); ?>
     <section class="block-content">
       <div class="container">
         <div class="block-content__wrap">
