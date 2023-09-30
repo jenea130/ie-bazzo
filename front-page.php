@@ -6,61 +6,7 @@ get_header(); ?>
 <?php echo get_template_part("template-parts/home/home-intro"); ?>
 <?php echo get_template_part("template-parts/home/block-content"); ?>
 <?php echo get_template_part("template-parts/home/block-profile"); ?>
-    <section class="block-news">
-      <div class="container">
-        <h2 class="block-news__title title">ultime notizie</h2>
-        <div class="block-news__wrap">
-          <div class="block-news__item">
-            <div class="block-news__img"><img src="assets/i/home/block-news/news-1.jpg" alt=""></div>
-            <div class="block-news__content">
-              <div class="block-news__text text">Aumenta la stretta sul credito alle PMI, la finanza alternativa può ...</div><a class="block-news__link" href="#">Approfondisci</a>
-            </div>
-          </div>
-          <div class="block-news__item">
-            <div class="block-news__img"><img src="assets/i/home/block-news/news-2.jpg" alt=""></div>
-            <div class="block-news__content">
-              <div class="block-news__text text">Cambiare le organizzazioni uscendo dagli automatismi</div><a class="block-news__link" href="#">Approfondisci</a>
-            </div>
-          </div>
-          <div class="block-news__item">
-            <div class="block-news__img"><img src="assets/i/home/block-news/news-3.jpg" alt=""></div>
-            <div class="block-news__content">
-              <div class="block-news__text text">I file delle e-fatture utilizzabili per otto anni</div><a class="block-news__link" href="#">Approfondisci</a>
-            </div>
-          </div>
-          <div class="block-news__item">
-            <div class="block-news__img"><img src="assets/i/home/block-news/news-4.jpg" alt=""></div>
-            <div class="block-news__content">
-              <div class="block-news__text text">Plastic tax, si parte da 1 miliardo Colpite anche le bottigliette</div><a class="block-news__link" href="#">Approfondisci</a>
-            </div>
-          </div>
-          <div class="block-news__item">
-            <div class="block-news__img"><img src="assets/i/home/block-news/news-5.jpg" alt=""></div>
-            <div class="block-news__content">
-              <div class="block-news__text text">Bonus fiscali, ecco da chi partiranno i tagli alle detrazioni</div><a class="block-news__link" href="#">Approfondisci</a>
-            </div>
-          </div>
-          <div class="block-news__item">
-            <div class="block-news__img"><img src="assets/i/home/block-news/news-6.jpg" alt=""></div>
-            <div class="block-news__content">
-              <div class="block-news__text text">Clausola penale nelle locazioni a rischio contenzioso con il Fisco</div><a class="block-news__link" href="#">Approfondisci</a>
-            </div>
-          </div>
-          <div class="block-news__item">
-            <div class="block-news__img"><img src="assets/i/home/block-news/news-7.jpg" alt=""></div>
-            <div class="block-news__content">
-              <div class="block-news__text text">Quota 100 è cumulabile? Solo se il lavoro autonomo è ...</div><a class="block-news__link" href="#">Approfondisci</a>
-            </div>
-          </div>
-          <div class="block-news__item">
-            <div class="block-news__img"><img src="assets/i/home/block-news/news-8.jpg" alt=""></div>
-            <div class="block-news__content">
-              <div class="block-news__text text">Gender gap negli studi professionali:  non c’è per 3 ...</div><a class="block-news__link" href="#">Approfondisci</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<?php echo get_template_part("template-parts/home/block-news"); ?>
     <section class="block-contact">
       <div class="container">
         <h2 class="block-contact__title title">contatti</h2>
