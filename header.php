@@ -1,16 +1,17 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
-<head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-	<?php wp_head(); ?>
+<head>
+  <meta charset="<?php bloginfo('charset'); ?>">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="profile" href="https://gmpg.org/xfn/11">
+
+  <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-<div class="site">
+  <?php wp_body_open(); ?>
+  <div class="site">
     <header class="main-header">
       <div class="container">
         <div class="main-header__wrap"><a class="main-header__logo" href="/">
@@ -149,14 +150,32 @@
                 </clipPath>
               </defs>
             </svg></a>
-          <ul class="main-header__menu" id="js-main-menu">
+          <!-- <ul class="main-header__menu" id="js-main-menu">
             <li><a href="/">Home</a></li>
             <li><a href="/services.html">Servizi</a></li>
             <li><a href="/about.html">Chi siamo</a></li>
             <li><a href="/news.html">News</a></li>
             <li><a href="/">Fatturazione Elettronica</a></li>
             <li><a href="contacts.html">Contatti</a></li>
-          </ul>
+          </ul> -->
+          <?php wp_nav_menu([
+            'theme_location'  => 'menu-header',
+            'menu'            => '',
+            'container'       => '',
+            'container_class' => '',
+            'container_id'    => '',
+            'menu_class'      => 'main-header__menu',
+            'menu_id'         => 'js-main-menu',
+            'echo'            => true,
+            'fallback_cb'     => 'wp_page_menu',
+            'before'          => '',
+            'after'           => '',
+            'link_before'     => '',
+            'link_after'      => '',
+            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+            'depth'           => 0,
+            'walker'          => '',
+          ]); ?>
           <div class="sandwich-wrap" id="js-sandwich-wrap">
             <div class="sandwich">
               <div class="sandwich__line sandwich__line--top"></div>

@@ -438,7 +438,7 @@ li {
   transition: all .4s;
 }
 
-.main-header__menu a.active {
+.main-header__menu li.current-menu-item a {
   color: var(--accent);
 }
 
