@@ -1105,20 +1105,20 @@ li {
   flex: 1;
 }
 
-.block-content__list {
+.block-content ul {
   padding-left: 1.8rem;
   -moz-column-count: 2;
   column-count: 2;
 }
 
 @media screen and (max-width: 500px) {
-  .block-content__list {
+  .block-content ul {
     -moz-column-count: 1;
     column-count: 1;
   }
 }
 
-.block-content__list li {
+.block-content ul li {
   margin-bottom: 0.6rem;
   list-style-type: disc;
 }
