@@ -506,7 +506,8 @@ li {
   color: var(--accent);
 }
 
-.main-header__menu a:hover::before, .main-header__menu a:hover::after {
+.main-header__menu a:hover::before,
+.main-header__menu a:hover::after {
   opacity: 1;
   transform: translateY(0);
 }
@@ -613,6 +614,7 @@ li {
 }
 
 @media screen and (max-width: 540px) {
+
   .form input[type="text"],
   .form input[type="email"],
   .form textarea {
@@ -639,7 +641,9 @@ li {
   padding-top: 2.4rem;
 }
 
-.form input[type="text"]::-moz-placeholder, .form input[type="email"]::-moz-placeholder, .form textarea::-moz-placeholder {
+.form input[type="text"]::-moz-placeholder,
+.form input[type="email"]::-moz-placeholder,
+.form textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.5);
   text-transform: lowercase;
 }
@@ -651,7 +655,9 @@ li {
   text-transform: lowercase;
 }
 
-.form input[type="text"]::-moz-placeholder:hover, .form input[type="email"]::-moz-placeholder:hover, .form textarea::-moz-placeholder:hover {
+.form input[type="text"]::-moz-placeholder:hover,
+.form input[type="email"]::-moz-placeholder:hover,
+.form textarea::-moz-placeholder:hover {
   color: white;
 }
 
@@ -661,7 +667,9 @@ li {
   color: white;
 }
 
-.form input[type="text"]:hover::-moz-placeholder, .form input[type="email"]:hover::-moz-placeholder, .form textarea:hover::-moz-placeholder {
+.form input[type="text"]:hover::-moz-placeholder,
+.form input[type="email"]:hover::-moz-placeholder,
+.form textarea:hover::-moz-placeholder {
   color: white;
 }
 
@@ -701,15 +709,15 @@ li {
   border: 2px solid white;
 }
 
-.form__checkbox {
+.form input[type="checkbox"] {
   display: none;
 }
 
-.form__checkbox:checked + label:after {
+.form input[type="checkbox"]:checked+.wpcf7-list-item-label:after {
   opacity: 1;
 }
 
-.form__privacy label {
+.form__privacy .wpcf7-list-item-label {
   position: relative;
   padding-left: 3.2rem;
   display: block;
@@ -720,11 +728,11 @@ li {
   cursor: pointer;
 }
 
-.form__privacy label span {
+.form__privacy .wpcf7-list-item-label a {
   color: white;
 }
 
-.form__privacy label::before {
+.form__privacy .wpcf7-list-item-label::before {
   content: "";
   position: absolute;
   top: 0;
@@ -736,12 +744,12 @@ li {
 }
 
 @media screen and (max-width: 900px) {
-  .form__privacy label::before {
+  .form__privacy .wpcf7-list-item-label::before {
     top: 0px;
   }
 }
 
-.form__privacy label::after {
+.form__privacy .wpcf7-list-item-label::after {
   content: "";
   position: absolute;
   top: 17px;
@@ -754,7 +762,7 @@ li {
 }
 
 @media screen and (max-width: 900px) {
-  .form__privacy label::after {
+  .form__privacy .wpcf7-list-item-label::after {
     top: 5px;
   }
 }
@@ -1448,11 +1456,17 @@ li {
   }
 }
 
-.block-contact__street, .block-contact__text, .block-contact__tel, .block-contact__fax, .block-contact__email {
+.block-contact__street,
+.block-contact__text,
+.block-contact__tel,
+.block-contact__fax,
+.block-contact__email {
   margin-bottom: 1.1rem;
 }
 
-.block-contact__tel a, .block-contact__fax a, .block-contact__email a {
+.block-contact__tel a,
+.block-contact__fax a,
+.block-contact__email a {
   color: var(--accent);
 }
 
@@ -2321,4 +2335,6 @@ li {
   z-index: 2;
 }
 
-/*# sourceMappingURL=my.css.map */
+.wpcf7-spinner {
+  display: none;
+}

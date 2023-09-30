@@ -1,3 +1,4 @@
+<?php echo get_template_part("template-parts/block-contact"); ?>
 <footer class="footer-top">
 	<div class="footer-top__map" id="map"></div>
 </footer>

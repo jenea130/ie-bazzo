@@ -72,10 +72,10 @@ function bsv_eccommerce_register_required_plugins()
     //   'name'             => 'PDF Flipbook',
     //   'slug'             => '3d-flipbook-dflip-lite',
     // ),
-    /* array( */
-    /*     'name' => 'Error Log Monitor', */
-    /*     'slug' => 'error-log-monitor', */
-    /* ), */
+     array( 
+         'name' => 'Error Log Monitor', 
+         'slug' => 'error-log-monitor', 
+     ), 
     // array(
     //   'name'             => 'Flow-Flow Social Feed Stream',
     //   'slug'             => 'flow-flow-social-streams',
@@ -128,12 +128,12 @@ function bsv_eccommerce_register_required_plugins()
     //			'name'             => 'Kama Thumbnail',
     //			'slug'             => 'kama-thumbnail',
     //		),
-    //		array(
-    //			'name'             => 'Contact Form 7',
-    //			'slug'             => 'contact-form-7',
-    //			'required'         => true,
-    //			'force_activation' => true
-    //		),
+    		array(
+    			'name'             => 'Contact Form 7',
+    			'slug'             => 'contact-form-7',
+    			'required'         => true,
+    			'force_activation' => true
+    		),
     //		array(
     //			'name'             => 'Woocommerce',
     //			'slug'             => 'woocommerce'
@@ -146,12 +146,12 @@ function bsv_eccommerce_register_required_plugins()
     //			'name'             => 'Easy Auto SKU Generator',
     //			'slug'             => 'easy-woocommerce-auto-sku-generator'
     //		),
-    //		array(
-    //			'name'             => 'Query Monitor',
-    //			'slug'             => 'query-monitor',
-    //			'required'         => true,
-    //			'force_activation' => true
-    //		),
+    		array(
+    			'name'             => 'Query Monitor',
+    			'slug'             => 'query-monitor',
+    			'required'         => true,
+    			'force_activation' => true
+    		),
     //		array(
     //			'name'             => 'Cookie Notice',
     //			'slug'             => 'cookie-notice'
