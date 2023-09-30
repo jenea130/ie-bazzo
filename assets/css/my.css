@@ -1304,6 +1304,8 @@ li {
 }
 
 .block-news__item {
+  display: flex;
+  flex-direction: column;
   margin: 0 10px 5.5rem;
   flex: 1 1 calc(25% - 20px);
   padding: 1.6rem 1.6rem 0;
@@ -1339,6 +1341,7 @@ li {
 .block-news__img {
   position: relative;
   padding: 0 0 90% 0;
+  width: 100%;
 }
 
 .block-news__img img {
@@ -1353,6 +1356,9 @@ li {
 }
 
 .block-news__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   padding: 3.3rem 0.9rem 1rem;
 }
 
@@ -1361,6 +1367,7 @@ li {
 }
 
 .block-news__link {
+  margin-top: auto;
   color: rgba(14, 129, 174, 0.5);
   transition: all .4s;
 }
