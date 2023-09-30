@@ -16,6 +16,8 @@ require_once __DIR__."/inc/func.php";
 require_once __DIR__."/inc/ie-setup.php";
 require_once __DIR__."/inc/ie-widgets.php";
 require_once __DIR__."/inc/ie-styles.php";
+require_once __DIR__."/inc/class-tgm-plugin-activation.php";
+require_once __DIR__."/inc/tgm_example.php";
 
 function ie_bazzo_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'ie_bazzo_content_width', 640 );
