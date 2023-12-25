@@ -1,13 +1,17 @@
 <?php echo get_template_part("template-parts/block-contact"); ?>
+<?php 
+	$full_company_name = get_field('full_company_name', 'option');
+	$vat = get_field('vat', 'option');
+?>
 <footer class="footer-top">
 	<div class="footer-top__map" id="map"></div>
 </footer>
 <footer class="footer-bottom">
 	<div class="footer-bottom__wrap">
-		<div class="footer-bottom__copyright"><span>Studio Michele Bazzo Associati. Partita Iva: 03775520269.</span>
-			<p>Copyright (C) 2019. Tutti i diritti riservati. <strong>Privacy and Cookie policy.</strong></p>
+		<div class="footer-bottom__copyright"><span><?php echo $full_company_name; ?>. Partita Iva: <?php echo $vat; ?>.</span>
+			<p>Copyright (C) <?php echo date('Y'); ?>. Tutti i diritti riservati. <strong>Privacy and Cookie policy.</strong></p>
 		</div>
-		<div class="footer-bottom__text">Studio Michele Bazzo Associati scelto Rewind e Altuofianco</div>
+		<div class="footer-bottom__text"><?php echo $full_company_name; ?> scelto Rewind e Altuofianco</div>
 		<div class="footer-bottom__logo-big">
 			<svg xmlns="http://www.w3.org/2000/svg" width="175" height="34" viewBox="0 0 175 34" fill="none">
 				<g clip-path="url(#clip0_7_109)">
