@@ -752,7 +752,7 @@ li {
 .form__privacy .wpcf7-list-item-label::after {
   content: "";
   position: absolute;
-  top: 17px;
+  top: 6px;
   left: 4px;
   width: 11px;
   height: 8px;
