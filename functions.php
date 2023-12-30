@@ -1,4 +1,10 @@
 <?php
+
+/* update_option('siteurl', 'http://lc-firstloc.local'); */
+/* update_option('home', 'http://lc-firstloc.local'); */
+/* update_option('siteurl', 'http://localhost:10003'); */
+/* update_option('home', 'http://localhost:10003'); */
+
 /**
  * ie-bazzo functions and definitions
  *
