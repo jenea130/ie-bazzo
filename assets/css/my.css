@@ -2423,3 +2423,16 @@ li {
     top: 14rem;
   }
 }
+
+.single-news {
+  padding-bottom: 6.4rem;
+}
+
+.single-news h2 {
+  margin-top: 6.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.single-news p {
+  margin-bottom: 1.6rem;
+}
